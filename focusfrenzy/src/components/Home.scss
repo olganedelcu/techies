@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+
 .homepage-container {
-    font-family: Arial, sans-serif;
-    max-width: 1200px;
+    font-family: 'Saira Stencil One', cursive;
+    width: auto;
     margin: 0 auto;
   }
   
@@ -9,7 +12,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #333;
+    background-color: #8340f7;
     color: #fff;
   }
   
@@ -20,7 +23,7 @@
   
   .login-button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #5d01fa;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -54,7 +57,7 @@
   }
   
   .footer {
-    background-color: #333;
+    background-color: #8340f7;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -69,3 +72,21 @@
     margin-right: 10px;
   }
   
+  .text {
+    color: #5d01fa;
+    font-size: 36px;
+    display: inline-block;
+    font-style: italic;
+  }
+
+  .text:hover {
+    color: #8340f7; 
+  }
+
+  .focus {
+    color: #a270f9;
+    margin: 0;
+    display: inline-block;
+    font-size: 36px;
+    font-style: italic;
+  }

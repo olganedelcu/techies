@@ -1,5 +1,7 @@
 import React from 'react';
 import './Home.scss'; 
+import logo from '../assets/logo.svg'
+import koala from '../assets/koala.jpeg'
 
 const HomePage: React.FC = () => {
   return (
@@ -12,11 +14,12 @@ const HomePage: React.FC = () => {
       </div>
       <div className="content">
         <div className="logo">
-          <img src="/path/to/logo.png" alt="Logo" />
-          <p>Focus is powerful and cool, join the revolution</p>
+          <img src={logo} alt="Logo" />
+          <p className="focus">Focus</p>
+          <p className="text"> is powerful and cool, join the revolution</p>
         </div>
         <div className="panda-container">
-          <img src="/path/to/panda.png" alt="Panda" className="panda" />
+          <img src={koala} alt="Panda" className="panda" />
           <div className="fireworks"></div>
         </div>
       </div>
