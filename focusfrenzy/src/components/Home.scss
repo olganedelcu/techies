@@ -1,0 +1,71 @@
+.homepage-container {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .menu-item {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .login-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .content {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .logo {
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    width: 200px;
+  }
+  
+  .panda {
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .panda:hover {
+    transform: scale(1.1);
+  }
+  
+  .fireworks {
+    /* Add your fireworks animation here */
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-links {
+    margin-bottom: 10px;
+  }
+  
+  .social-links img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  

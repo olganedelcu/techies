@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Login.scss';
+import logo from '../assets/logo.svg'
 
 const Login: React.FC = () => {
   const [username, setUsername] = useState('');
@@ -22,7 +23,8 @@ const Login: React.FC = () => {
 
   return (
     <div className="login-container">
-      <h2>Login</h2>
+      <img src={logo} alt="Logo" className="logo" /> 
+      <h2>FocusFrenzy</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="username">Username:</label>
