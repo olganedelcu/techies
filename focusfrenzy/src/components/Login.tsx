@@ -18,7 +18,7 @@ const Login: React.FC = () => {
     event.preventDefault();
     console.log('Username:', username);
     console.log('Password:', password);
-    // Add your authentication logic here
+    // logic here
   };
 
   return (

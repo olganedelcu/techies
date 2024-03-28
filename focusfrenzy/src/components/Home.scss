@@ -20,7 +20,12 @@
     margin-right: 20px;
     cursor: pointer;
   }
-  
+
+  .menu img {
+    width: auto; 
+    height: 40px; 
+    margin-right: 5px; 
+  }
   .login-button {
     padding: 10px 20px;
     background-color: #5d01fa;
@@ -33,14 +38,6 @@
   .content {
     text-align: center;
     padding: 50px;
-  }
-  
-  .logo {
-    margin-bottom: 20px;
-  }
-  
-  .logo img {
-    width: 200px;
   }
   
   .panda {
@@ -85,8 +82,8 @@
 
   .focus {
     color: #a270f9;
-    margin: 0;
+    padding: 10px;
     display: inline-block;
-    font-size: 36px;
+    font-size: 56px;
     font-style: italic;
   }

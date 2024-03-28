@@ -3,10 +3,12 @@ import './Home.scss';
 import logo from '../assets/logo.svg'
 import koala from '../assets/koala.jpeg'
 
+
 const HomePage: React.FC = () => {
   return (
     <div className="homepage-container">
       <div className="menu">
+        <img src={logo} alt="Logo"/>
         <div className="menu-item">Home</div>
         <div className="menu-item">Blog</div>
         <div className="menu-item">About Us</div>
@@ -14,7 +16,6 @@ const HomePage: React.FC = () => {
       </div>
       <div className="content">
         <div className="logo">
-          <img src={logo} alt="Logo" />
           <p className="focus">Focus</p>
           <p className="text"> is powerful and cool, join the revolution</p>
         </div>
