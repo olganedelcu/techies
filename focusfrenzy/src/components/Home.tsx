@@ -1,7 +1,11 @@
 import React from 'react';
 import './Home.scss'; 
-import logo from '../assets/logo.svg'
+import logo from '../assets/icon.svg'
 import koala from '../assets/koala.jpeg'
+import instagram  from '../assets/icons/instagram.svg'
+import github from '../assets/icons/square-github.svg'
+import linkedin from '../assets/icons/linkedin-in.svg'
+
 
 
 const HomePage: React.FC = () => {
@@ -21,14 +25,14 @@ const HomePage: React.FC = () => {
         </div>
         <div className="panda-container">
           <img src={koala} alt="Panda" className="panda" />
-          <div className="fireworks"></div>
         </div>
+    
       </div>
       <div className="footer">
         <div className="social-links">
-          <a href="#"><img src="/path/to/facebook.png" alt="Facebook" /></a>
-          <a href="#"><img src="/path/to/twitter.png" alt="Twitter" /></a>
-          <a href="#"><img src="/path/to/instagram.png" alt="Instagram" /></a>
+          <a href="#"><img src={linkedin} alt="Facebook" /></a>
+          <a href="#"><img src={github} /></a>
+          <a href="#"><img src={ instagram } alt="Instagram" /></a>
         </div>
         <p>&copy; 2024 FocusFrenzy. All rights reserved.</p>
       </div>
